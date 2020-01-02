@@ -1,0 +1,17 @@
+[
+  {
+    "id": "alchemyst.base.Damaged",
+    "name": "Damaged",
+    "modifier": 0.2
+  },
+  {
+    "id": "alchemyst.base.Poor",
+    "name": "Poor",
+    "modifier": 0.5
+  },
+  {
+    "id": "alchemyst.base.Standard",
+    "name": "Standard",
+    "modifier": 1.0
+  }
+]

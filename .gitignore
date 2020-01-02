@@ -1,0 +1,11 @@
+# Artefacts, build data, etc.
+build/
+# IntelliJ
+.idea/
+# Local test server data.
+data/
+# Gradle data.
+.gradle/
+# Gradle wrapper
+gradle/
+gradlew*

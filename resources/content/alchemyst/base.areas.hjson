@@ -1,0 +1,14 @@
+[
+  {
+    "id": "alchemyst.base.Greenglen"
+    "name": "Greenglen",
+    "description": "A rural area with wide fields and few trees.",
+    "loot": [
+      {
+        "$type": "item",
+        "id": "alchemyst.base.Greensprout",
+        "weight": 100
+      }
+    ]
+  }
+]

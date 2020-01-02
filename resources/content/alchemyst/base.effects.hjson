@@ -1,0 +1,11 @@
+[
+  {
+    "id": "alchemyst.base.Healing",
+    "name": "Healing"
+    "description": "",
+    // L = Player Level, Q = Quality
+    "formula": "P.skills['alchemyst.base.HerbLore'] + (S.quality*2)",
+    // L = Level
+    "value": "50*(2^S.level)"
+  }
+]

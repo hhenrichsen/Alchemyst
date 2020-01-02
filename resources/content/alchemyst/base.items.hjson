@@ -1,0 +1,15 @@
+[
+  {
+    "id": "alchemyst.base.Greensprout",
+    "name": "Greensprout",
+    "description": "A small herb that grows nearly everywhere.",
+    "baseValue": 1,
+    "effects": [
+      {
+        "id": "alchemyst.base.Healing",
+        "strengthFormula": "Math.round(S.quality.modifier)",
+        "requiredKnowledge": 0
+      }
+    ]
+  }
+]
