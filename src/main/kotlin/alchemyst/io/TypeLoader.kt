@@ -8,6 +8,7 @@ import alchemyst.registry.Registry
 abstract class TypeLoader<T : Identified>(val gson: Gson) : Identifiable() {
     abstract val typeName: String
     abstract val registry: Registry<T>
+    val dependsOn: MutableList<String> = mutableListOf()
     abstract fun loadType(text: String, packageName: String) : T?
 
     fun addContent(text: String, packageName: String) {

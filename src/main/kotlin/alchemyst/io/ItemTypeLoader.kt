@@ -8,6 +8,10 @@ import alchemyst.registry.Registry
 class ItemTypeLoader(gson: Gson) : TypeLoader<ItemType>(gson) {
     override val typeName: String = "items"
     override val registry: Registry<ItemType> = Alchemyst.registry.items
+    init {
+        dependsOn.add("effect")
+        dependsOn.add("rarity")
+    }
 
     override fun loadType(text: String, packageName: String): ItemType? {
         val item = gson.fromJson(text, ItemType::class.java)
