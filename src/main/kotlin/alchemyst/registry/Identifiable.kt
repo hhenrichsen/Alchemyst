@@ -1,6 +1,6 @@
 package alchemyst.registry
 
-abstract class HasIdExtractor : HasId {
+abstract class Identifiable : Identified {
     override val id: String
         get() = extractId()
 

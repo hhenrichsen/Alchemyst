@@ -1,6 +1,6 @@
 package alchemyst.registry
 
-class Registry<T : HasId> {
+class Registry<T : Identified> {
     private val map: MutableMap<String, T> = mutableMapOf()
 
     operator fun get(id: String) : T? {

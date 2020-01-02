@@ -3,14 +3,14 @@ package alchemyst.items
 import com.google.gson.annotations.Expose
 import alchemyst.player.Player
 import alchemyst.io.EquationCompileException
-import alchemyst.registry.HasId
+import alchemyst.registry.Identified
 import java.io.PrintWriter
 import java.io.StringWriter
 import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
 
 class EffectType(@Expose override val id: String, @Expose val name: String, @Expose val levelFormula: String, @Expose val valueFormula: String) :
-    HasId {
+    Identified {
     companion object {
         private val scriptEngine: ScriptEngine = ScriptEngineManager().getEngineByName("rhino")
         private val stringWriter = StringWriter()

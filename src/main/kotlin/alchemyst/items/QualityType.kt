@@ -1,9 +1,9 @@
 package alchemyst.items
 
-import alchemyst.registry.HasId
+import alchemyst.registry.Identified
 
 class QualityType(override val id: String, val name: String, val modifier: Float) :
-    HasId {
+    Identified {
     companion object {
         @JvmStatic val none = QualityType("alchemyst.internal.None", "None", 1.0f)
     }

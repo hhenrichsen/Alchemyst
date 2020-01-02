@@ -1,9 +1,9 @@
 package alchemyst.items
 
-import alchemyst.registry.HasId
+import alchemyst.registry.Identified
 
 class ItemType(override val id: String, val name: String, val description: String, val rarityType: RarityType, val baseValue: Int) :
-    HasId {
+    Identified {
     val effects: List<Effect> = mutableListOf()
 
     companion object {

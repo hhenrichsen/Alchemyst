@@ -1,11 +1,11 @@
 package alchemyst.io
 
 import com.google.gson.Gson
-import alchemyst.registry.HasId
-import alchemyst.registry.HasIdExtractor
+import alchemyst.registry.Identified
+import alchemyst.registry.Identifiable
 import alchemyst.registry.Registry
 
-abstract class TypeLoader<T : HasId>(val gson: Gson) : HasIdExtractor() {
+abstract class TypeLoader<T : Identified>(val gson: Gson) : Identifiable() {
     abstract val typeName: String
     abstract val registry: Registry<T>
     abstract fun loadType(text: String, packageName: String) : T?

@@ -1,5 +1,5 @@
 package alchemyst.registry
 
-interface HasId {
+interface Identified {
     val id: String
 }
