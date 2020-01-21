@@ -6,7 +6,7 @@
     "baseValue": 1,
     "effects": [
       {
-        "id": "alchemyst.base.Healing",
+        "ref": "alchemyst.base.Healing",
         "strengthFormula": "Math.round(S.quality.modifier)",
         "requiredKnowledge": 0
       }

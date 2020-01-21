@@ -1,0 +1,48 @@
+[
+  {
+    "id": "alchemyst.base.Emergence",
+    "name": "Emergence",
+    "modifiers": [
+      {
+        "ref": "alchemyst.internal.DropRate",
+        "type": "percent",
+        "amount": 30
+      },
+      {
+        "ref": "alchemyst.internal.Rarity",
+        "type": "percent",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "id": "",
+  },
+  {
+    "id": "alchemyst.base.Descendence",
+    "name": "Decendance",
+    "modifiers": [
+      {
+        "ref": "alchemyst.internal.DropRate",
+        "type": "percent",
+        "amount": 20
+      },
+      {
+        "ref": "alchemyst.internal.Rarity",
+        "type": "percent",
+        "amount": 30
+      }
+    ]
+  },
+  {
+    "id": "alchemyst.base.Solitude",
+    "name": "Solitude",
+    "modifiers": [
+      {
+        "ref": "alchemyst.internal.DropRate",
+        "type": "percent",
+        "amount": -50
+      }
+    ]
+  }
+]

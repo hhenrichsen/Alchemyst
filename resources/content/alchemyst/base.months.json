@@ -1,0 +1,15 @@
+[
+  {
+    "id": "alchemyst.base.Sproutbirth",
+    "name": "Sproutbirth",
+    "duration": 41,
+    "successor": "alchemyst.base.Showerfall",
+    "season": "alchemyst.base.Emergence"
+  },
+  {
+    "id": "alchemyst.base.Showerfall",
+    "name": "Showerfall",
+    "duration": 22,
+    "successor": "",
+    "season": "alchemyst.base.Emergence"
+  }]

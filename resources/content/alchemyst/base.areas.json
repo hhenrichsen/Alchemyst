@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schema/area.schema.json#areaList",
+  "items": [
+    {
+      "id": "alchemyst.base.Greenglen",
+      "name": "Greenglen",
+      "description": "A rural area with wide fields and few trees.",
+      "loot": [
+        {
+          "id": "alchemyst.base.Greensprout",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}
