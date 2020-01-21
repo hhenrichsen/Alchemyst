@@ -11,7 +11,8 @@ object AlchemystRegistry {
     val items = Registry<ItemType>()
     val rarity = Registry<RarityType>()
     val skills = Registry<SkillType>()
-    val qualities = Registry<QualityType>()
+    val qualities =
+        Registry<QualityType>()
     val effects = Registry<EffectType>()
     val typeLoaders = Registry<TypeLoader<*>>()
 }
