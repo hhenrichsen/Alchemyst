@@ -3,7 +3,7 @@ build/
 # IntelliJ
 .idea/
 # Local test server data.
-data/
+/data/
 # Gradle data.
 .gradle/
 # Gradle wrapper

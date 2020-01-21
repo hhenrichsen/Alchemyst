@@ -1,7 +1,7 @@
 package alchemyst.io
 
 import com.google.gson.Gson
-import alchemyst.items.ItemType
+import alchemyst.data.items.ItemType
 import org.hjson.JsonValue
 import java.io.File
 import java.io.FileReader

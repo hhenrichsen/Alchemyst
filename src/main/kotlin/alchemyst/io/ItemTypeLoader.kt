@@ -2,7 +2,7 @@ package alchemyst.io
 
 import com.google.gson.Gson
 import alchemyst.Alchemyst
-import alchemyst.items.ItemType
+import alchemyst.data.items.ItemType
 import alchemyst.registry.Registry
 
 class ItemTypeLoader(gson: Gson) : TypeLoader<ItemType>(gson) {

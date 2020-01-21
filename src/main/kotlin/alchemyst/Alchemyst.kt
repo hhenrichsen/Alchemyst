@@ -2,7 +2,7 @@ package alchemyst
 
 import com.google.gson.Gson
 import alchemyst.commands.Command
-import alchemyst.commands.GameState
+import alchemyst.state.GameState
 import alchemyst.io.ItemTypeLoader
 import alchemyst.player.Player
 import alchemyst.registry.AlchemystRegistry

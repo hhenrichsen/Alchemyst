@@ -1,10 +1,10 @@
 package alchemyst.registry
 
 import alchemyst.io.TypeLoader
-import alchemyst.items.EffectType
-import alchemyst.items.ItemType
-import alchemyst.items.QualityType
-import alchemyst.items.RarityType
+import alchemyst.data.items.EffectType
+import alchemyst.data.items.ItemType
+import alchemyst.data.items.QualityType
+import alchemyst.data.items.RarityType
 import alchemyst.player.SkillType
 
 object AlchemystRegistry {
